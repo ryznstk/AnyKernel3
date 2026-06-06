@@ -32,7 +32,7 @@ no_magisk_check=1
 
 kernel_version=$(cat /proc/version | awk -F '-' '{print $1}' | awk '{print $3}')
 
-ui_print "Flashing Chidori Kernel..."
+ui_print "Flashing EVANESCIA Kernel..."
 
 ui_print "Kernel version: $kernel_version"
 
