@@ -4,9 +4,9 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=Chidori-Kernel
-kernel.compiler=AOSP CLANG 20
-kernel.made=GuidixX
+kernel.string=evanescia
+kernel.compiler=AOSP CLANG 22
+kernel.made=BLU
 do.devicecheck=1
 do.modules=0
 do.systemless=0
