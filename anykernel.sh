@@ -4,8 +4,8 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=evanescia
-kernel.compiler=AOSP CLANG 22
+kernel.string=HYPERBLU
+kernel.compiler=Neutron CLANG 23
 kernel.made=BLU
 do.devicecheck=1
 do.modules=0
@@ -32,7 +32,7 @@ no_magisk_check=1
 
 kernel_version=$(cat /proc/version | awk -F '-' '{print $1}' | awk '{print $3}')
 
-ui_print "Flashing EVANESCIA Kernel..."
+ui_print "Flashing HYPERBLU Kernel..."
 
 ui_print "Kernel version: $kernel_version"
 
